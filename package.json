@@ -1,0 +1,13 @@
+{
+  "name": "lan-share",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @lan-share/server --filter @lan-share/client dev",
+    "build": "pnpm --filter @lan-share/client build",
+    "start": "pnpm --filter @lan-share/server start"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
